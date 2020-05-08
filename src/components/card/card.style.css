@@ -1,22 +1,22 @@
 .card-container {
-  -moz-osx-font-smoothing: greyscale;
-  backface-visibility: hidden;
-  background: #95dada;
-  border-radius: 5px;
-  border: 1px solid grey;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 25px;
-  transform: translateZ(0);
-  transition: transform 0.25s ease-out;
+    -moz-osx-font-smoothing: greyscale;
+    backface-visibility: hidden;
+    background: #95dada;
+    border-radius: 5px;
+    border: 1px solid grey;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
 }
 
 .card-container:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .card-container img {
-  max-width: 180px;
+    max-width: 180px;
 }
